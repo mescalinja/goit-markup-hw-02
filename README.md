@@ -1,2 +1,2 @@
-# goit-markup-hw-01
- репозиторий для тренировки работы с системой контроля версий
+# goit-markup-hw-02
+ MY LOVELY REPO
