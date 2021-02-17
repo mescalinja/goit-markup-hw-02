@@ -33,10 +33,6 @@ footer {
 
 .nav-link {
   color: black;
-  width: 77px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
 
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -53,10 +49,6 @@ footer {
 
 .address-link-h {
   color: rgba(117, 117, 117, 1);
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
 
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -73,10 +65,6 @@ footer {
 
 .address-link-f {
   color: rgba(255, 255, 255, 0.6);
-  width: 231px;
-  height: 21px;
-  left: 215px;
-  top: 2238px;
 
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -90,17 +78,50 @@ footer {
   color: none;
 }
 
-/* .address-up li {
-  display: inline-block;
-} */
+.about {
+  display: flex;
+  background-color: white;
+  height: 769px;
+  padding-bottom: 94px;
+}
+
+.about-list {
+  display: flex;
+  margin-top: 94px;
+  margin-bottom: 94px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-list li (not):last-child {
+  padding-right: 30px;
+}
+
+.about-title {
+  text-align: left;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 9.7px;
+}
+
+.about-txt {
+  text-align: left;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(117, 117, 117, 1);
+}
 
 .logo-h,
 .logo-f {
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -136,10 +157,6 @@ body {
 .hero-text {
   color: white;
   position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
 
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -164,11 +181,6 @@ body {
 
 .reg-btn-txt {
   color: white;
-
-  width: 136px;
-  height: 30px;
-  left: 732px;
-  top: 440px;
 
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -198,11 +210,6 @@ body {
 .our-job-txt {
   /* display: flex; */
 
-  width: 376px;
-  height: 42px;
-  left: 612px;
-  top: 969px;
-
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -229,10 +236,6 @@ body {
 
 .team {
   display: inline-flex;
-  width: 264px;
-  height: 42px;
-  left: 668px;
-  top: 1543px;
 
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -249,25 +252,14 @@ body {
 .bottom-page {
   background-color: rgba(245, 244, 250, 1);
   width: 1600px;
-  height: 648px;
-  left: 0px;
-  top: 1449px;
 }
 
 .footer {
   background-color: rgba(47, 48, 58, 1);
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2097px;
 }
 
 .footer-address {
   color: white;
-  width: 231px;
-  height: 81px;
-  left: 215px;
-  top: 2208px;
 }
 
 img {
