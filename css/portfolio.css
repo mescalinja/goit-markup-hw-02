@@ -17,6 +17,16 @@ footer {
   display: inline-block;
 }
 
+.nav-link {
+  color: black;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
 .nav-link:hover {
   color: rgba(33, 150, 243, 1);
 }
@@ -79,8 +89,20 @@ a {
   color: rgba(33, 150, 243, 1);
 }
 
-.menu-btn li {
-  display: inline-block;
+.menu {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.menu-btn-list {
+  display: inline-flex;
+  margin-bottom: 50px;
+  margin-left: 95px;
+  justify-content: space-between;
+}
+
+.menu-btn-list li (not):last-child {
+  padding-right: 9px;
 }
 
 .m-btn {
@@ -89,6 +111,86 @@ a {
 
 .m-btn:hover {
   background-color: rgba(33, 150, 243, 1);
+}
+
+.btn-all {
+  position: absolute;
+  background-color: rgba(245, 244, 250, 1);
+  width: 73px;
+  height: 38px;
+  left: 495px;
+  top: 174px;
+
+  border-radius: 4px;
+}
+
+.btn-web {
+  position: absolute;
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.btn-app {
+  position: absolute;
+  width: 145px;
+  height: 38px;
+  left: 712px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.btn-design {
+  position: absolute;
+  width: 103px;
+  height: 38px;
+  left: 865px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.btn-marketing {
+  position: absolute;
+  width: 130px;
+  height: 38px;
+  left: 976px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.btn-all:hover,
+.btn-web:hover,
+.btn-app:hover,
+.btn-design:hover,
+.btn-marketing:hover {
+  background-color: rgba(33, 150, 243, 1);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.btn-txt {
+  color: black;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.btn-txt:hover {
+  color: white;
 }
 
 .btn-txt {
